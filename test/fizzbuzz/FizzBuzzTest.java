@@ -39,5 +39,12 @@ class FizzBuzzTest {
 		assertEquals(FizzBuzz.fizzbuzz(9), "fizz");
 		assertEquals(FizzBuzz.fizzbuzz(400), "buzz");
 	}
+	
+	@Test
+	void fizz_multiples_doubles() {
+		assertEquals(FizzBuzz.fizzbuzz(15), "fizzbuzz");
+		assertEquals(FizzBuzz.fizzbuzz(2*3*5), "fizzbuzz");
+		assertEquals(FizzBuzz.fizzbuzz(3*3*5*5), "fizzbuzz");
+	}
 
 }
