@@ -1,6 +1,8 @@
 package fizzbuzz;
 
 public class FizzBuzz {
+	static int[] valeursSpeciales = {3, 5};
+	static String[] motsSpeciaux = {"fizz", "buzz"}
 	public static Object fizzbuzz(int i) {
 		String resultat = "";
 		if (i%3==0)
