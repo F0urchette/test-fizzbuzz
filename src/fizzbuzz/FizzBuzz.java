@@ -13,8 +13,8 @@ public class FizzBuzz {
 		}
 		
 		if (resultat.isEmpty())
-			return Integer.toString(i);
-		return resultat;
+			return Integer.toString(entree);
+		return resultat.toString();
 	}
 
 }
