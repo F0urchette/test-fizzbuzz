@@ -2,13 +2,15 @@ package fizzbuzz;
 
 public class FizzBuzz {
 	static int[] valeursSpeciales = {3, 5};
-	static String[] motsSpeciaux = {"fizz", "buzz"}
-	public static Object fizzbuzz(int i) {
-		String resultat = "";
-		if (i%3==0)
-			resultat = resultat.concat("fizz");
-		if (i%5==0)
-			resultat = resultat.concat("buzz");
+	static String[] motsSpeciaux = {"fizz", "buzz"};
+	
+	public static String fizzbuzz(int entree) {
+		StringBuilder resultat = new StringBuilder();
+		
+		for (int = 0; i < valeursSpeciales)
+		
+		
+		
 		if (resultat.isEmpty())
 			return Integer.toString(i);
 		return resultat;
