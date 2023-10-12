@@ -8,7 +8,7 @@ class FizzBuzzTest {
 
 	@Test
 	void test() {
-		assertEquals(FizzBuzz.fizzbuzz(1), "1")
+		assertEquals(FizzBuzz.fizzbuzz(1), "1");
 	}
 
 }
