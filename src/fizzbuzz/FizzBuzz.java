@@ -6,7 +6,7 @@ public class FizzBuzz {
 		if (i%3==0)
 			resultat.concat("fizz");
 		if (i%5==0)
-			return "buzz";
+			resultat.concat("buzz");
 		return Integer.toString(i);
 	}
 
