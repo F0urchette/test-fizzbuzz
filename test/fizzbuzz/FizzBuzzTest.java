@@ -25,7 +25,6 @@ class FizzBuzzTest {
 	void fizz_quelques_valeurs() {
 		assertEquals(FizzBuzz.fizzbuzz(4), "4");
 		assertEquals(FizzBuzz.fizzbuzz(7), "7");
-		assertEquals(FizzBuzz.fizzbuzz(400), "400");
 	}
 	
 	@Test
@@ -38,6 +37,7 @@ class FizzBuzzTest {
 		assertEquals(FizzBuzz.fizzbuzz(6), "fizz");
 		assertEquals(FizzBuzz.fizzbuzz(10), "buzz");
 		assertEquals(FizzBuzz.fizzbuzz(9), "fizz");
+		assertEquals(FizzBuzz.fizzbuzz(400), "buzz");
 	}
 
 }
